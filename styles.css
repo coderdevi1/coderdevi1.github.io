@@ -26,6 +26,7 @@ body{
 img{
     max-width: 100%;
     display: block;
+
   }
 .site-navigation{
     display: flex;
@@ -86,17 +87,15 @@ img{
 }
 .content {
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 3ch;
-    row-gap: 2ch;
-    max-width: 1200px;
+    column-gap: 15ch;
+    max-width: 950px;
     padding: 1em;
     margin: 5ch auto; 
 }
 .card-image {
     aspect-ratio: 4/3;
-    object-fit: cover;
+    object-fit:fill;
     object-position: center;
 }
 .card {
