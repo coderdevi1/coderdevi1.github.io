@@ -22,8 +22,6 @@ body{
 .page-footer{
     background-color: #2b2b2b;
     color: #ffffff;
-    /* display: flex;
-    align-self: flex-end; */
 }
 img{
     max-width: 100%;
