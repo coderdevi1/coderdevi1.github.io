@@ -109,12 +109,16 @@ img{
 .card-content {
     padding: 2ch;
 }
+.card-content a{
+    color: #2b2b2b;
+    text-decoration:none;
+}
 .social {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 3ch;
-    /* align-self: flex-end; */
+    margin-top: 2ch;
 }
 .social a {
     font-size: 2em;
@@ -150,12 +154,12 @@ img{
     display: block;
     width: 100%;
     margin-bottom: 2ch;
-    border: solid #5c8486 1px;
+    border: solid #2b2b2b 1px;
     padding: 1ch;
     border-radius: 0.5em;
 }
 #contact-form .input:focus {
-    background-color: lightyellow;
+    background-color: #d9d9d9;
     outline: dotted;
 }
 .radiobuttons > label {
@@ -163,4 +167,5 @@ img{
 }
 .submit{
     background-color: #4f92eb;
+    min-width: 12ch;
 }

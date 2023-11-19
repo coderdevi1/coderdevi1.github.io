@@ -74,4 +74,27 @@
         background-position: center;
     }
 }
+@media screen and (max-width: 666px ) {
+    #contact-form{
+        max-width: 500px;
+    }
+} 
+@media screen and (max-width: 541px ) {
+    #contact-form{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 456px ) {
+    #contact-form{
+        max-width:340px;
+        margin: 6ch ;
+        margin-left: 1ch;
+    }
+}
+@media screen and (max-width: 392px ) {
+    #contact-form{
+        max-width: 300px;
+        margi
+    }
+}   
 
