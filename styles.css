@@ -138,3 +138,29 @@ img{
 .copyright {
     text-align: center;
 }
+#contact-form {
+    max-width: 600px;
+    margin: 12ch auto;
+}
+#contact-form > label {
+    display: block;
+    font-weight: 500;
+}
+#contact-form .input {
+    display: block;
+    width: 100%;
+    margin-bottom: 2ch;
+    border: solid #5c8486 1px;
+    padding: 1ch;
+    border-radius: 0.5em;
+}
+#contact-form .input:focus {
+    background-color: lightyellow;
+    outline: dotted;
+}
+.radiobuttons > label {
+    display: inline-block;
+}
+.submit{
+    background-color: #4f92eb;
+}
