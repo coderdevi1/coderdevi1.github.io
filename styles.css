@@ -22,6 +22,8 @@ body{
 .page-footer{
     background-color: #2b2b2b;
     color: #ffffff;
+    /* display: flex;
+    align-self: flex-end; */
 }
 img{
     max-width: 100%;
@@ -39,6 +41,85 @@ img{
 .site-navigation a:hover{
     background-color: #d9d9d9;
 }
+.banner1 {
+    background-color: #ffffff;
+    min-height: 50vh;
+    display: grid;
+    place-items: center center;
+    background-image: url("images/susan-q-yin-2JIvboGLeho-unsplash.jpg");
+    background-size: cover;
+    background-position: center -200px;
+    background-repeat: no-repeat;
+}
+.banner2 {
+    background-color: #ffffff;
+    min-height: 50vh;
+    display: grid;
+    place-items: center center;
+    background-image: url("images/lala-azizli-OFZUaeYKP3k-unsplash.jpg");
+    background-size: cover;
+    background-position: center -200px;
+    background-repeat: no-repeat;
+}
+.banner3 {
+    background-color: #ffffff;
+    min-height: 50vh;
+    display: grid;
+    place-items: center center;
+    background-image: url("images/edilson-borges-GSrgTVqS0dk-unsplash.jpg");
+    background-size: cover;
+    background-position: center -200px;
+    background-repeat: no-repeat;
+}
+.banner4 {
+    background-color: #ffffff;
+    min-height: 50vh;
+    display: grid;
+    place-items: center center;
+    background-image: url("images/jay-pVdiv_8oY_s-unsplash.jpg");
+    background-size: cover;
+    background-position: center -200px;
+    background-repeat: no-repeat;
+}
+.banner-text {
+    color: #4f92eb;
+    font-size: 4em;
+    text-shadow: 0px 0px 2px black;
+}
+.content {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3ch;
+    row-gap: 2ch;
+    max-width: 1200px;
+    padding: 1em;
+    margin: 5ch auto; 
+}
+.card-image {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    object-position: center;
+}
+.card {
+    border: solid 1px #2b2b2b;
+    border-radius: 1ch;
+    overflow: hidden;
+}
+.card-content {
+    padding: 2ch;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3ch;
+    /* align-self: flex-end; */
+}
+.social a {
+    font-size: 2em;
+    color: #ffffff
+}
 .home{
     background-color: #d9d9d9;
 }
@@ -53,4 +134,7 @@ img{
 }
 .sale{
     background-color: #d9d9d9;
+}
+.copyright {
+    text-align: center;
 }
