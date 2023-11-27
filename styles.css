@@ -40,6 +40,21 @@ img{
 .site-navigation a:hover{
     background-color: #d9d9d9;
 }
+.nav-button {
+    background-color: transparent;
+    border: solid 1px #999999;
+    border-radius: 0.5em;
+    align-self: center;
+    margin-left: 1em;
+    display: none;
+}
+.nav-button i {
+    font-size: 2em;
+    padding: 0.5em;
+    padding-bottom: 0.1em;
+}
+.button-text {
+    display: block;
 .banner1 {
     background-color: #ffffff;
     min-height: 50vh;
