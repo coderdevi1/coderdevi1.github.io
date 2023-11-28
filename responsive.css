@@ -43,7 +43,8 @@
     }
     .site-navigation {
         min-width: 100%;
-        justify-content: space-between;  
+        justify-content: space-between; 
+        flex-direction: column; 
     }
     .nav-button {
         display: block;
@@ -231,6 +232,7 @@
         min-width: 100%;
         justify-content: space-between;
         font-size: 0.7em;
+        flex-direction: column;
         
     }
     .nav-button {
