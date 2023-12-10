@@ -1,4 +1,3 @@
-// function for when document is loaded
 function onDocumentLoad() {
     const btn = document.querySelector(".nav-button")
     const nav = document.querySelector(".site-navigation")
@@ -12,5 +11,4 @@ function onDocumentLoad() {
     })
 }
 
-// listener for when document is loaded
 window.addEventListener("load", onDocumentLoad )
