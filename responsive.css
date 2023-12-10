@@ -45,6 +45,13 @@
         min-width: 100%;
         justify-content: space-between; 
         flex-direction: column; 
+        max-height: 0vh;
+        overflow: hidden;
+        transition: max-height 1s;
+    }
+    .site-navigation.open{
+        max-height: 50vh;
+
     }
     .nav-button {
         display: block;
